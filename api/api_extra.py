@@ -8,12 +8,13 @@ app = Flask(__name__)
 CORS(app)
 
 # Load the fastai learner model
-model_path = "../models/fastai_model.pkl"
+model_path = "./models/fastai_model.pkl"
 learn = load_learner(model_path)
 
 def predict_image(img_path):
     # Open and preprocess the image
     img = Image.open(img_path).convert("RGB")
+    img_resized = img.resize((224, 224))
     img_fastai = PILImage.create(img_resized)
 
     # Perform inference using the loaded model

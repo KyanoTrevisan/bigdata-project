@@ -19,7 +19,7 @@ The dataset comprises approximately 200 images each of the following big cat spe
 These images were collected using a custom script `scraper.py` which automates the process of scraping images from Google.
 
 ## Models
-We experimented with various architectures including AlexNet, VGG, and ResNet to determine the most effective model for our classification task. The models were trained and validated on our dataset, and their performance was compared based on accuracy and error rates.
+We experimented with various architectures to determine the most effective model for our classification task. The models were trained and validated on our dataset, and their performance was compared based on accuracy and error rates.
 
 ## Files
 - `scraper.py`: Script used for scraping images from Google to build the dataset.
@@ -34,7 +34,8 @@ For training and evaluating the model:
 3. Evaluate models
 
 ## Streamlit
-https://bigdata5-project.streamlit.app/
+We were unable to host the Streamlit app on the clound since we used the Pathlib, which only works on Windows, Streamlit presumably uses Linux servers. 
+Screenshots of the application will be provided in `final.ipynb`
 
 ## Results
 The models' performance is documented within the Jupyter notebook, including confusion matrices and per-class accuracy metrics. After rigorous testing, our model outperformed the baseline established by Google's Teachable Machine in identifying the specified big cat species.
