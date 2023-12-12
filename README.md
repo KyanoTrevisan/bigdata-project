@@ -29,9 +29,12 @@ We experimented with various architectures including AlexNet, VGG, and ResNet to
 To collect images for the dataset, install the requirements.txt (`pip install -r requirements.txt`) and run the `scraper.py` script.
 
 For training and evaluating the model:
-1. Open the `big_cat_classifier.ipynb` in [Google Colab](https://colab.research.google.com/drive/1Qc24NvHu5K3NUWwyhR6MEfNtjyV-eGql?usp=sharing).
-2. Runtime > Run All
+1. Open the `big_cat_classifier.ipynb`
+2. Run All
 3. Evaluate models
+
+## Streamlit
+https://bigdata5-project.streamlit.app/
 
 ## Results
 The models' performance is documented within the Jupyter notebook, including confusion matrices and per-class accuracy metrics. After rigorous testing, our model outperformed the baseline established by Google's Teachable Machine in identifying the specified big cat species.
