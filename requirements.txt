@@ -5,3 +5,6 @@ requests
 tensorflow
 streamlit
 scikit-learn
+fastai
+flask
+seaborn

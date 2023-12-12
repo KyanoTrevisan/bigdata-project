@@ -2,3 +2,4 @@ venv/
 datasets/
 bigdata/
 export.pkl
+keras_model.pkl
