@@ -2,3 +2,6 @@ lxml
 selenium
 beautifulsoup4
 requests
+tensorflow
+streamlit
+scikit-learn
